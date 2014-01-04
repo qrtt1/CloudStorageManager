@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+
+eclipse.project.name = "CloudStorageManager"
+
+repositories { mavenCentral() }
+
+dependencies {
+    compile 'com.amazonaws:aws-java-sdk:1.+'
+    compile 'com.microsoft.windowsazure:microsoft-windowsazure-api:0.+'
+}
+

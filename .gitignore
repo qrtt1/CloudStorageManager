@@ -1,0 +1,7 @@
+Test*.java
+build
+bin
+.classpath
+.settings
+.project
+.gradle
